@@ -1,1 +1,2 @@
 # Bayesian-Inference-on-SIR-like-Systems
+With this project we would like to explore the world of Bayesian Inference in compartment models. We know indeed that simulations of such models are rather simple, for example using the Gillespie’s algorithm while inference is much harder. With this project first, we will implement the Gillespie’s algorithm that allows us to generate stochastic trajectories with a fixed R0, and after that we will give these trajectories to STAN/- JAGS and we will see if we are able to recover the chosen R0.
